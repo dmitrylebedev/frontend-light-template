@@ -5,7 +5,7 @@ const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
 //TODO: Добавить JS source-map
 
-// this is javascript rule
+// это правило для javascript
 const javascript = {
   test: /\.(js)$/,
   exclude: /node_modules/,
@@ -17,7 +17,7 @@ const javascript = {
   }]
 };
 
-// this is main config which put together styles and javascript
+// основной конфиг вебпака
 const config = {
   entry: "./src/js/index.js",
   output: {

@@ -1,7 +1,5 @@
-@import "/vendor/normalize.css";
-@import "/global/fonts.css";
-@import "/global/variables.css";
-@import "/global/layout.css";
+@import "/helpers/fonts.css";
+@import "/helpers/variables.css";
 
 @import "/blocks/header.css";
 @import "/blocks/main-content.css";
