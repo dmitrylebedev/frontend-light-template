@@ -1,0 +1,12 @@
+.header {
+  text-align: center;
+  padding: 40px 0 44px;
+  background-color: tomato;
+  margin-bottom: 50px;
+}
+
+  .header__title {
+    margin: 0;
+    font-size: 26px;
+    line-height: 1;
+  }

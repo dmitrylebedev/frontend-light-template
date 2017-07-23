@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'myfontfamily';
+  src: url('../resources/fonts/avenir_next_regular.woff2') format('woff2'),
+  url('../resources/fonts/avenir_next_regular.woff2') format('woff')
+  /* Add other formats as you see fit */
+}
