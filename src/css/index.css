@@ -1,5 +1,10 @@
 @import "/helpers/fonts.css";
 @import "/helpers/variables.css";
+@import "../../node_modules/select2/dist/css/select2.min.css";
 
 @import "/blocks/header.css";
 @import "/blocks/main-content.css";
+@import "/blocks/select2-container.css";
+@import "/blocks/custom-select.css";
+@import "/blocks/multiple-select.css";
+@import "/blocks/select-group.css";

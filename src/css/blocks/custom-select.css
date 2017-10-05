@@ -1,0 +1,40 @@
+.single-select {
+  position: relative;
+  display: block;
+  width: 150px;
+  height: 50px;
+  font-family: 'Museo Sans Cyrl','Arial',sans-serif;
+  background-color: #fff;
+}
+
+.single-select .single-select__placeholder {
+  position: absolute;
+  top: 19px;
+  left: 20px;
+  font-size: 11px;
+  font-weight: 300;
+  transform: translate3d(0,0,0);
+  color: #909090;
+  transition: all ease .3s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1;
+}
+
+/* STATE */
+
+.single-select.single-select_selected .single-select__placeholder {
+  transform: translate3d(0,-10px,0);
+  opacity: 1;
+  visibility: visible;
+}
+
+.single-select .select2-container {
+  width: 100%!important;
+}
+
+.single-select.single-select_selected .select2-container--default .select2-selection--single .select2-selection__rendered {
+  padding-top: 26px;
+  padding-left: 20px;
+  padding-bottom: 4px;
+}
